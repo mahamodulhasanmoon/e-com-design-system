@@ -4,12 +4,12 @@
 $sides: (t: top, r: right, b: bottom, l: left);
 
 @each $space, $value in $spacing {
-  .dlabs-m-#{$space} {
+  .dlabs-p-#{$space} {
     margin: $value;
   }
 
   @each $shortcut, $side in $sides {
-    .dlabs-m#{$shortcut}-#{$space} {
+    .dlabs-p#{$shortcut}-#{$space} {
       margin-#{$side}: $value;
     }
   }

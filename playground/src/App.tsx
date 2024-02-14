@@ -6,7 +6,7 @@ export default function App() {
     <div>
       <h1>Design System Theory</h1>
       <Button title='Hello Component' onClick={()=>alert('hello')}>Click Me</Button>
-      <Padding space='xxxl' left>
+      <Padding space='xl' left>
       <Color hexCode='#00dd00' height='xl' width='xl'></Color>
       </Padding>
      
