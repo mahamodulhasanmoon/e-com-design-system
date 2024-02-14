@@ -118,5 +118,32 @@
   display: flex;
   font-family: var(--dlabs-body-font-family, "Playfair Display", serif);
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: 1rem;
+}
+.dlabs-select-overlay {
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 4px 11px rgba(157, 157, 157, 0.21);
+  background-color: var(--dlabs-form-bg-color, #fff);
+  border: 1px solid var(--dlabs-form-border-color, #F1F2F3);
+  list-style: none;
+  width: 100%;
+  z-index: 99;
+  position: absolute;
+}
+.dlabs-select-option {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+}
+.dlabs-select-option-selected {
+  background-color: var(--dlabs-form-bg-option-selected, #5ECE7B);
+  color: var(--dlabs-form-color-option-selected, #fff);
+}
+.dlabs-select-option:hover {
+  background-color: var(--dlabs-form-bg-color-hover, #F1F2F3);
 }

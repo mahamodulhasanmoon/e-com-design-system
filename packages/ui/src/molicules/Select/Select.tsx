@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useLayoutEffect, useRef, useState } from 'react';
 import '@d.labs/scss/lib/Select.css'
 
 export interface SelectOptions {
@@ -17,31 +17,51 @@ const Select: React.FC<ISelectProps> = ({
     options=[],
     onOptionSelected
 }) => {
-    const [isOpen,setIsOpen] = useState<boolean>(false)
+    const [isOpen,setIsOpen] = useState<boolean>(false);
+    const [overlayTop,setOverlayTop]= useState<number>(0);
+    const [selectedIndex,setSelectedIndex]= useState<number | null >(null);
+
+    const labelRef = useRef<HTMLButtonElement>(null)
+
+    useLayoutEffect(()=>{
+
+        setOverlayTop(labelRef.current?.offsetHeight || 0)
+
+    },[labelRef.current?.offsetHeight])
 
    const handleClickOption  = (option:SelectOptions, optionIndex:number)=>{
     if (onOptionSelected){ 
          onOptionSelected(option,optionIndex)
-         setIsOpen(false)
+         
         
         }
+        setSelectedIndex(optionIndex)
+         setIsOpen(false)
     }
         
     return (
         <div className='dlabs-select'>
-          <button className='dlabs-select-label' onClick={()=> setIsOpen(state=> !state)}>
+          <button ref={labelRef} className='dlabs-select-label' onClick={()=> setIsOpen(state=> !state)}>
             <span>{label}</span>
-            <span>{label}</span>
+            <svg width={'1rem'} height={'1rem'} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+</svg>
+
           </button>
 {
     isOpen && (
-        <ul className='dlabs-select-overlay'>
+        <ul style={{
+            top:overlayTop
+        }} className='dlabs-select-overlay'>
         {
-            options.map((option,i) =>(
+            options.map((option,i) =>{
+                const isSelected = selectedIndex === i
+                return (
                 <li  key={option.value}
+                className={`dlabs-select-option  ${isSelected ? 'dlabs-select-option-selected' : ''}`}
                 onClick={()=>handleClickOption(option,i)}
                 >{option.label}</li>
-            ) )
+            )} )
         }
       </ul>
     )
