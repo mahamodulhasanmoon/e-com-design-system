@@ -1,0 +1,16 @@
+{
+  "name": "@d.labs/scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon --watch src --exec yarn build -e scss",
+    "build": "node ./src/scripts/build.js"
+  },
+  "dependencies": {
+    "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

@@ -1,0 +1,33 @@
+
+/*=============================================
+=            Global Text color            =
+=============================================*/
+
+$body-text-color : var(--dl-body-text-color,$dark)!default;
+$body-bg-color:var(--dl-body-bg-color,$white)!default;
+
+
+/*=====  End of Global Text color  ======*/
+
+
+
+/*=============================================
+=            Buttons            =
+=============================================*/
+$btn-primary-color:var(--dl-btn-primary-color,$white)!default;
+$btn-primary-bg-color:var(--dl-btn-primary-bg-color,$green)!default;
+
+$btn-bg-hover:var(--dl-btn-bg-hover,$green_light)!default;
+
+/*=====  End of Buttons  ======*/
+
+
+
+/*=============================================
+=            FORMS            =
+=============================================*/
+
+
+
+/*=====  End of FORMS  ======*/
+

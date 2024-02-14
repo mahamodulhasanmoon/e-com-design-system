@@ -1,0 +1,54 @@
+
+
+/*=============================================
+=            Body Font Family            =
+=============================================*/
+
+$body-font-family: var(--dl-body-font-family,$playfair)!default;
+
+/*=====  End of Body Font Family  ======*/
+
+
+
+/*=============================================
+=            body font sizes            =
+=============================================*/
+$body-font-size: var(--dl-body-font-size,$fs-sm)!default;
+$body-font-weight: var(--dl-body-font-weight,$fw-normal)!default;
+
+
+/*=====  End of body font sizes  ======*/
+
+
+
+
+/*=============================================
+=            heading Font Sizes            =
+=============================================*/
+
+$h-1-font-size: var(--dl-h1-font-size,$h-1)!default;
+$h-2-font-size: var(--dl-h2-font-size,$h-2)!default;
+$h-3-font-size: var(--dl-h3-font-size,$h-3)!default;
+$h-4-font-size: var(--dl-h4-font-size,$h-4)!default;
+$h-5-font-size: var(--dl-h5-font-size,$h-5)!default;
+$h-6-font-size: var(--dl-h6-font-size,$h-6)!default;
+
+/*=====  End of heading Font Sizes  ======*/
+
+
+
+/*=============================================
+=            heading font weight            =
+=============================================*/
+
+$h-1-font-weight: var(--dl-h1-font-weight,$fw_black)!default;
+$h-2-font-weight: var(--dl-h2-font-weight,$fw_semibold)!default;
+$h-3-font-weight: var(--dl-h3-font-weight,$fw_bold)!default;
+$h-4-font-weight: var(--dl-h4-font-weight,$fw_medium)!default;
+$h-5-font-weight: var(--dl-h5-font-weight,$fw_normal)!default;
+$h-6-font-weight: var(--dl-h6-font-weight,$fw_light)!default;
+
+/*=====  End of heading font weight  ======*/
+
+
+

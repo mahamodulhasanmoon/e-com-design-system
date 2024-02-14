@@ -1,0 +1,194 @@
+/*=============================================
+=            Variables            =
+=============================================*/
+
+
+/**
+*
+
+* TABLE OF CONTENTS
+*
+* COLORS
+* BRAND COLORS ------------------------
+* NUTRAL COLORS ------------------------
+* UTILITY COLORS ------------------------
+
+* TYPOGRAPHY
+
+* FONT FAMILIES ------------------------
+* FONT WEIGHT ------------------------
+* FONT FAMILIES  ------------------------
+* FONT SIZES ------------------------
+* HEADING SIZES ------------------------
+
+
+* BREAKPOIENTS
+
+* BREAKPOIENTS ------------------------
+
+* SPECINGS
+
+* SPECINGS ------------------------
+
+
+*/
+
+
+/*=====  End of Variables  ======*/
+
+
+
+/*=============================================
+=            COLOR            =
+=============================================*/
+
+$green: #5ECE7B;
+$green_light: #9ee2b0;
+
+$dark: #1D1F22;
+$dark_light: #737680;
+
+
+/**
+ *
+ * nutral Color
+ *
+ */
+
+
+$gray: #A3A5AD;
+$gray_light: #BEBFC4;
+
+$white: #fff;
+$white_dark: #F1F2F3;
+
+
+// utlility color
+
+$red: #d12727;
+$red_light: #f8dedf;
+
+
+$blue: #67C6FA;
+$blue_light: #E1F4FE;
+
+
+/*=====  End of COLOR  ======*/
+
+
+
+
+/*=============================================
+=            TYPOGRAPHY            =
+=============================================*/
+
+/* FONT Families **/
+
+$playfair: "Playfair Display", serif;
+/*1*/
+$raleway: 'Raleway', 'Halvetocaneue', 'Halvetica', sans-serif;
+/*2*/
+
+
+
+// font sizes
+
+$fs_sx: 0.75rem; //12px
+$fs_sm: 0.875rem; //14px
+$fs_base: 1rem; //16px
+$fs_lg: 1.125rem; //18px
+$fs_xl: 1.5rem; //18px
+
+
+$fs: (
+    xs:0.75rem,
+    sm:0.875rem,
+    base:1rem,
+    lg:125rem,
+    xl:1.5rem
+);
+
+
+/* Heading Font Size */
+
+
+$h_1: 1.5rem;
+$h_2: 1.375rem;
+$h_3: 1.125rem;
+$h_4: 1.1rem;
+$h_5: 0.875rem;
+$h_6: 0.75rem;
+
+
+$h: (
+    1: 1.5rem,
+    2: 1.375rem,
+    3: 1.125rem,
+    4: 1.1rem,
+    5: 0.875rem,
+    6: 0.75rem,
+);
+
+// font weight
+
+$fw_light: 300;
+$fw_normal: 400;
+$fw_medium: 500;
+$fw_semibold: 600;
+$fw_bold: 700;
+$fw_extrabold: 800;
+$fw_black: 900;
+
+
+
+
+/*=====  End of TYPOGRAPHY  ======*/
+
+
+
+
+/*=============================================
+    =            breakpoients            =
+    =============================================*/
+
+$breakpoients: (
+    md:48rem,
+    lg:64rem,
+    xl:80rem
+);
+
+
+/*=====  End of breakpoients  ======*/
+
+
+
+
+/*=============================================
+    =            specing            =
+    =============================================*/
+
+$specing: (
+    none:0,
+    xxxs:0.25rem,
+    xxs:0.5rem,
+    xs:0.75rem,
+    sm:1rem,
+    md:1.5rem,
+    lg:2rem,
+    xl:3rem,
+    xxl:4.5rem,
+    xxxl:6rem) !default;
+
+/*=====  End of specing  ======*/
+
+
+
+/*=============================================
+=            Shadows            =
+=============================================*/
+
+$shadows: (
+    base: 0 4px 11px rgba(157, 157, 157, .21))
+    /*=====  End of Shadows  ======*/
+
+    

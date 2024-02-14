@@ -1,0 +1,31 @@
+// testing mixins
+
+@mixin tablet{
+    @media (min-width:map-get($breakpoients ,'md')) {
+        @content;
+    }
+}
+
+@mixin laptop{
+    @media (min-width:map-get($breakpoients ,'lg')) {
+        @content;
+    }
+}
+@mixin desktop{
+    @media (min-width:map-get($breakpoients ,'xl')) {
+        @content;
+    }
+}
+
+
+@mixin padding($space){
+   padding: map-get($spaceing, $space);
+}
+
+@mixin margin($space){
+   padding: map-get($spaceing, $space);
+}
+
+@mixin shadow($key){
+  box-shadow: map-get($spaceing, $key);
+}

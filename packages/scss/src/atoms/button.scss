@@ -1,0 +1,11 @@
+@import '../foundations//all';
+
+.btn{
+    border: none;
+    background: green;
+    padding: 20px 40px;
+    // border-radius: map-get($spacing, 'xxxs');
+    // font-family: $body-font-familly;
+    // font-size: $body-font-size;
+    // padding: map-get($spacing, 'xxs' );
+}
