@@ -16,6 +16,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@d.labs/scss":"1.0.0"
+    "@d.labs/scss":"1.0.0",
+    "@d.labs/foundations":"1.0.0"
   }
 }

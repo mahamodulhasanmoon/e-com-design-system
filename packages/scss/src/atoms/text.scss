@@ -1,0 +1,15 @@
+@import '../foundations/all';
+
+.dlabs-text{
+
+    margin: 0;
+//    color:$text-color ;
+    // font-family: $body-font-familly;
+ 
+};
+
+@each $size,$value in $fs {
+    .dlabs-text-#{$size}{
+        font-size: $value;
+    }
+}

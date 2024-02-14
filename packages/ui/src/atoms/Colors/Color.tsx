@@ -1,16 +1,16 @@
 import React from 'react';
-import Spacing from '../../foundations/Spacing'
+import {fontSize,spacing} from '@d.labs/foundations/lib';
 import '@d.labs/scss/lib/Utility.css'
 interface ColorProps {
   hexCode:string,
-  width?:keyof typeof Spacing;
-  height?:keyof typeof Spacing;
+  width?:keyof typeof spacing;
+  height?:keyof typeof fontSize;
 }
 const Color:React.FC<ColorProps> = (
   {
     hexCode,
-    width=Spacing.sm,
-    height=Spacing.sm
+    width=fontSize.sm,
+    height=fontSize.sm
   }) => {
     const className = `dlabs-w-${width} dlabs-h-${height}`;
   return (

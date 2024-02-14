@@ -1,9 +1,9 @@
 import Button from "./atoms/Button";
 import Color from "./atoms/Colors";
+import Text from "./atoms/text";
 
 
-// foundations
-import  Spacing from "./foundations/Spacing";
 
 
-export { Button,Color,Spacing };
+
+export { Button,Color,Text };

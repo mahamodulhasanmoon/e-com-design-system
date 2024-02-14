@@ -339,21 +339,21 @@ input[type=checkbox], input[type=radio] {
 }
 
 :root {
-  --dl-body-font-family: var(--dl-body-font-family, "Playfair Display", serif);
-  --dl-body-font-size: var(--dl-body-font-size, 0.875rem);
-  --dl-body-font-weight: var(--dl-body-font-weight, 400);
-  --dl-h1-font-size: var(--dl-h1-font-size, 1.5rem);
-  --dl-h2-font-size: var(--dl-h2-font-size, 1.375rem);
-  --dl-h3-font-size: var(--dl-h3-font-size, 1.125rem);
-  --dl-h4-font-size: var(--dl-h4-font-size, 1.1rem);
-  --dl-h5-font-size: var(--dl-h5-font-size, 0.875rem);
-  --dl-h6-font-size: var(--dl-h6-font-size, 0.75rem);
-  --dl-h1-font-weight: var(--dl-h1-font-weight, 900);
-  --dl-h2-font-weight: var(--dl-h2-font-weight, 600);
-  --dl-h3-font-weight: var(--dl-h3-font-weight, 700);
-  --dl-h4-font-weight: var(--dl-h4-font-weight, 500);
-  --dl-h5-font-weight: var(--dl-h5-font-weight, 400);
-  --dl-h6-font-weight: var(--dl-h6-font-weight, 300);
+  --dlabs-body-font-family: var(--dlabs-body-font-family, "Playfair Display", serif);
+  --dlabs-body-font-size: var(--dlabs-body-font-size, 0.875rem);
+  --dlabs-body-font-weight: var(--dlabs-body-font-weight, 400);
+  --dlabs-h1-font-size: var(--dlabs-h1-font-size, 1.5rem);
+  --dlabs-h2-font-size: var(--dlabs-h2-font-size, 1.375rem);
+  --dlabs-h3-font-size: var(--dlabs-h3-font-size, 1.125rem);
+  --dlabs-h4-font-size: var(--dlabs-h4-font-size, 1.1rem);
+  --dlabs-h5-font-size: var(--dlabs-h5-font-size, 0.875rem);
+  --dlabs-h6-font-size: var(--dlabs-h6-font-size, 0.75rem);
+  --dlabs-h1-font-weight: var(--dlabs-h1-font-weight, 900);
+  --dlabs-h2-font-weight: var(--dlabs-h2-font-weight, 600);
+  --dlabs-h3-font-weight: var(--dlabs-h3-font-weight, 700);
+  --dlabs-h4-font-weight: var(--dlabs-h4-font-weight, 500);
+  --dlabs-h5-font-weight: var(--dlabs-h5-font-weight, 400);
+  --dlabs-h6-font-weight: var(--dlabs-h6-font-weight, 300);
 }
 
 /*=====  End of BASE  ======*/

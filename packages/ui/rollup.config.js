@@ -4,7 +4,8 @@ module.exports = {
     input: [
         'src/index.ts',
         'src/atoms/Button/index.ts',
-        'src/atoms/Colors/index.ts'
+        'src/atoms/Colors/index.ts',
+        'src/atoms/text/index.ts'
     ],
     output: {
         dir: 'lib',
