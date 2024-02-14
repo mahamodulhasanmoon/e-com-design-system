@@ -1,0 +1,16 @@
+{
+  "name": "@d.labs/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private":true,
+  "scripts": {
+    "build":"yarn lerna run build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  }
+}
