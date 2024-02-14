@@ -87,12 +87,82 @@
 =            heading font weight            =
 =============================================*/
 /*=====  End of heading font weight  ======*/
-.btn {
-  border: none;
-  background: var(--dl-body-bg-color, #fff);
-  color: var(--dl-body-text-color, #1D1F22);
-  padding: 20px 40px;
-  border-radius: 0.5rem;
-  font-size: var(--dl-body-font-size, 0.875rem);
-  padding: 0.5rem;
+.dlabs-w-none {
+  width: 0;
+}
+
+.dlabs-w-xxxs {
+  width: 0.25rem;
+}
+
+.dlabs-w-xxs {
+  width: 0.5rem;
+}
+
+.dlabs-w-xs {
+  width: 0.75rem;
+}
+
+.dlabs-w-sm {
+  width: 1rem;
+}
+
+.dlabs-w-md {
+  width: 1.5rem;
+}
+
+.dlabs-w-lg {
+  width: 2rem;
+}
+
+.dlabs-w-xl {
+  width: 3rem;
+}
+
+.dlabs-w-xxl {
+  width: 4.5rem;
+}
+
+.dlabs-w-xxxl {
+  width: 6rem;
+}
+
+.dlabs-h-none {
+  height: 0;
+}
+
+.dlabs-h-xxxs {
+  height: 0.25rem;
+}
+
+.dlabs-h-xxs {
+  height: 0.5rem;
+}
+
+.dlabs-h-xs {
+  height: 0.75rem;
+}
+
+.dlabs-h-sm {
+  height: 1rem;
+}
+
+.dlabs-h-md {
+  height: 1.5rem;
+}
+
+.dlabs-h-lg {
+  height: 2rem;
+}
+
+.dlabs-h-xl {
+  height: 3rem;
+}
+
+.dlabs-h-xxl {
+  height: 4.5rem;
+}
+
+.dlabs-h-xxxl {
+  height: 6rem;
 }

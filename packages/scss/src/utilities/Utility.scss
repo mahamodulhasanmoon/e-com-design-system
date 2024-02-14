@@ -1,0 +1,13 @@
+@import '../foundations/all';
+
+
+@each $size, $value in $spacing {
+  .dlabs-w-#{$size} {
+    width: $value;
+  }
+};
+@each $size, $value in $spacing {
+  .dlabs-h-#{$size} {
+    height: $value;
+  }
+}

@@ -5,8 +5,8 @@
     background:$body-bg-color;
     color: $body-text-color;
     padding: 20px 40px;
-    border-radius: map-get($specing, 'xxs');
+    border-radius: map-get($spacing, 'xxs');
     // font-family: $body-bg-color;
     font-size: $body-font-size;
-    padding: map-get($specing, 'xxs' );
+    padding: map-get($spacing, 'xxs' );
 }

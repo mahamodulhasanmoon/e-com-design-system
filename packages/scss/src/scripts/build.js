@@ -22,7 +22,7 @@ compile('src/global.scss','lib/global.css')
 
 const getComponents = ()=>{
     let allComponents = []
-    const types = ['atoms','molicules','organisms']
+    const types = ['atoms','molicules','organisms','utilities']
 
     types.forEach(type=> {
         const allFiles = fs.readdirSync(`src/${type}`).map(file=>({
