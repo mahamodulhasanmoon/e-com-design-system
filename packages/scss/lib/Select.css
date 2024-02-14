@@ -105,31 +105,18 @@
 =            heading font weight            =
 =============================================*/
 /*=====  End of heading font weight  ======*/
-.dlabs-text {
-  margin: 0;
-  color: var(--dlabs-body-text-color, #1D1F22);
+.dlabs-select {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
-
-.dlabs-text-xs {
-  font-size: 0.75rem;
-}
-
-.dlabs-text-sm {
-  font-size: 0.875rem;
-}
-
-.dlabs-text-base {
-  font-size: 1rem;
-}
-
-.dlabs-text-lg {
-  font-size: 125rem;
-}
-
-.dlabs-text-xl {
-  font-size: 1.5rem;
-}
-
-.dlabs-text-xxl {
-  font-size: 2rem;
+.dlabs-select-label {
+  align-items: center;
+  background-color: var(--dlabs-form-bg-color, #fff);
+  border: 1px solid var(--dlabs-form-border-color, #F1F2F3);
+  cursor: pointer;
+  display: flex;
+  font-family: var(--dlabs-body-font-family, "Playfair Display", serif);
+  justify-content: space-between;
+  padding: 1.5rem;
 }

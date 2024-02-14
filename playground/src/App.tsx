@@ -1,7 +1,14 @@
 import './App.css'
-import {Button,Color,Margin,Padding,Text} from '@d.labs/ui/lib'
+import {Button,Color,Margin,Padding,Select} from '@d.labs/ui/lib'
 
 export default function App() {
+
+  const colorOptions = [
+    {label:'red', value:'red'},
+    {label:'green', value:'green'},
+    {label:'yellow', value:'yellow'}
+  ]
+
   return (
     <div>
       <h1>Design System Theory</h1>
@@ -12,7 +19,11 @@ export default function App() {
      
       <Margin space='xl' top left>
 
-      <Text size='xxl'>Hello World</Text>
+      {/* <Text size='xxl'>Hello World</Text> */}
+      <Select
+       label='Select A color '
+       options={colorOptions}
+       />
       </Margin>
     </div>
   )
