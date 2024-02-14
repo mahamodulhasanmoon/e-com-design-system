@@ -18,7 +18,7 @@ Our design system serves as the visual foundation for our components and styles.
 
 ### Prerequisites
 
-- Node.js v14+
+- Node.js v18+
 - Yarn v1.x
 
 ### Installation
