@@ -1,0 +1,21 @@
+{
+  "name": "@d.labs/ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev":"yarn build --watch",
+    "build":"rollup -c"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/rollup": "^0.54.0",
+    "react": "^18.2.0",
+    "rollup": "^4.10.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@d.labs/scss":"1.0.0"
+  }
+}
