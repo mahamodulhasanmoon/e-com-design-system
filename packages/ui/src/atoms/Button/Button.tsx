@@ -1,5 +1,5 @@
 import React from 'react'
-import '@devXionLabs/scss/lib/button.css'
+import '@d.labs/scss/lib/button.css'
 interface ButtonProps{
 title:string;
 children:React.ReactNode,

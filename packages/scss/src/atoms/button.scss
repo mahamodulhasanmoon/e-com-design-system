@@ -2,10 +2,11 @@
 
 .btn{
     border: none;
-    background: green;
+    background:$body-bg-color;
+    color: $body-text-color;
     padding: 20px 40px;
-    // border-radius: map-get($spacing, 'xxxs');
-    // font-family: $body-font-familly;
-    // font-size: $body-font-size;
-    // padding: map-get($spacing, 'xxs' );
+    border-radius: map-get($specing, 'xxs');
+    // font-family: $body-bg-color;
+    font-size: $body-font-size;
+    padding: map-get($specing, 'xxs' );
 }

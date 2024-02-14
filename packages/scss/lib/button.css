@@ -89,6 +89,10 @@
 /*=====  End of heading font weight  ======*/
 .btn {
   border: none;
-  background: green;
+  background: var(--dl-body-bg-color, #fff);
+  color: var(--dl-body-text-color, #1D1F22);
   padding: 20px 40px;
+  border-radius: 0.5rem;
+  font-size: var(--dl-body-font-size, 0.875rem);
+  padding: 0.5rem;
 }

@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "npmClient": "yarn",
   "packages": [
-    "packages/*"
+    "packages/*",
+    "playground/*"
    
   ],
   "stream": true
