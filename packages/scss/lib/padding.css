@@ -1,0 +1,306 @@
+/*=============================================
+=            Variables            =
+=============================================*/
+/**
+*
+
+* TABLE OF CONTENTS
+*
+* COLORS
+* BRAND COLORS ------------------------
+* NUTRAL COLORS ------------------------
+* UTILITY COLORS ------------------------
+
+* TYPOGRAPHY
+
+* FONT FAMILIES ------------------------
+* FONT WEIGHT ------------------------
+* FONT FAMILIES  ------------------------
+* FONT SIZES ------------------------
+* HEADING SIZES ------------------------
+
+
+* BREAKPOIENTS
+
+* BREAKPOIENTS ------------------------
+
+* spacingS
+
+* spacingS ------------------------
+
+
+*/
+/*=====  End of Variables  ======*/
+/*=============================================
+=            COLOR            =
+=============================================*/
+/**
+ *
+ * nutral Color
+ *
+ */
+/*=====  End of COLOR  ======*/
+/*=============================================
+=            TYPOGRAPHY            =
+=============================================*/
+/* FONT Families **/
+/*1*/
+/*2*/
+/* Heading Font Size */
+/*=====  End of TYPOGRAPHY  ======*/
+/*=============================================
+    =            breakpoients            =
+    =============================================*/
+/*=====  End of breakpoients  ======*/
+/*=============================================
+    =            spacing            =
+    =============================================*/
+/*=====  End of spacing  ======*/
+/*=============================================
+=            Shadows            =
+=============================================*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/**
+ *
+ * Defining a SCSS Variable: [Instructions]
+ * 1. define a name
+ * 2. value of the variable will be a css var, 
+ *    so the consumer of the design system won't have to use scss
+ * 3. default value will be a scss variable that we declared previously
+ * 4. added !default flag so consumer of the design system can override the scss variable 
+ * 5. the --dlabs prefix of the variable name is a namespace (project name)
+ * [dlabs - design system for engineering]
+ */
+/*=============================================
+=            Global text colors               =
+=============================================*/
+/*=====  End of Text Color  ======*/
+/*=============================================
+=                   Buttons                   =
+=============================================*/
+/*=====  End of Buttons  ======*/
+/*=============================================
+=                    Forms                    =
+=============================================*/
+/*=============================================
+=            Body Font Family            =
+=============================================*/
+/*=====  End of Body Font Family  ======*/
+/*=============================================
+=            body font sizes            =
+=============================================*/
+/*=====  End of body font sizes  ======*/
+/*=============================================
+=            heading Font Sizes            =
+=============================================*/
+/*=====  End of heading Font Sizes  ======*/
+/*=============================================
+=            heading font weight            =
+=============================================*/
+/*=====  End of heading font weight  ======*/
+.dlabs-p-none {
+  margin: 0;
+}
+
+.dlabs-pt-none {
+  margin: 0;
+}
+
+.dlabs-pr-none {
+  margin: 0;
+}
+
+.dlabs-pb-none {
+  margin: 0;
+}
+
+.dlabs-pl-none {
+  margin: 0;
+}
+
+.dlabs-p-xxxs {
+  margin: 0.25rem;
+}
+
+.dlabs-pt-xxxs {
+  margin: 0.25rem;
+}
+
+.dlabs-pr-xxxs {
+  margin: 0.25rem;
+}
+
+.dlabs-pb-xxxs {
+  margin: 0.25rem;
+}
+
+.dlabs-pl-xxxs {
+  margin: 0.25rem;
+}
+
+.dlabs-p-xxs {
+  margin: 0.5rem;
+}
+
+.dlabs-pt-xxs {
+  margin: 0.5rem;
+}
+
+.dlabs-pr-xxs {
+  margin: 0.5rem;
+}
+
+.dlabs-pb-xxs {
+  margin: 0.5rem;
+}
+
+.dlabs-pl-xxs {
+  margin: 0.5rem;
+}
+
+.dlabs-p-xs {
+  margin: 0.75rem;
+}
+
+.dlabs-pt-xs {
+  margin: 0.75rem;
+}
+
+.dlabs-pr-xs {
+  margin: 0.75rem;
+}
+
+.dlabs-pb-xs {
+  margin: 0.75rem;
+}
+
+.dlabs-pl-xs {
+  margin: 0.75rem;
+}
+
+.dlabs-p-sm {
+  margin: 1rem;
+}
+
+.dlabs-pt-sm {
+  margin: 1rem;
+}
+
+.dlabs-pr-sm {
+  margin: 1rem;
+}
+
+.dlabs-pb-sm {
+  margin: 1rem;
+}
+
+.dlabs-pl-sm {
+  margin: 1rem;
+}
+
+.dlabs-p-md {
+  margin: 1.5rem;
+}
+
+.dlabs-pt-md {
+  margin: 1.5rem;
+}
+
+.dlabs-pr-md {
+  margin: 1.5rem;
+}
+
+.dlabs-pb-md {
+  margin: 1.5rem;
+}
+
+.dlabs-pl-md {
+  margin: 1.5rem;
+}
+
+.dlabs-p-lg {
+  margin: 2rem;
+}
+
+.dlabs-pt-lg {
+  margin: 2rem;
+}
+
+.dlabs-pr-lg {
+  margin: 2rem;
+}
+
+.dlabs-pb-lg {
+  margin: 2rem;
+}
+
+.dlabs-pl-lg {
+  margin: 2rem;
+}
+
+.dlabs-p-xl {
+  margin: 3rem;
+}
+
+.dlabs-pt-xl {
+  margin: 3rem;
+}
+
+.dlabs-pr-xl {
+  margin: 3rem;
+}
+
+.dlabs-pb-xl {
+  margin: 3rem;
+}
+
+.dlabs-pl-xl {
+  margin: 3rem;
+}
+
+.dlabs-p-xxl {
+  margin: 4.5rem;
+}
+
+.dlabs-pt-xxl {
+  margin: 4.5rem;
+}
+
+.dlabs-pr-xxl {
+  margin: 4.5rem;
+}
+
+.dlabs-pb-xxl {
+  margin: 4.5rem;
+}
+
+.dlabs-pl-xxl {
+  margin: 4.5rem;
+}
+
+.dlabs-p-xxxl {
+  margin: 6rem;
+}
+
+.dlabs-pt-xxxl {
+  margin: 6rem;
+}
+
+.dlabs-pr-xxxl {
+  margin: 6rem;
+}
+
+.dlabs-pb-xxxl {
+  margin: 6rem;
+}
+
+.dlabs-pl-xxxl {
+  margin: 6rem;
+}

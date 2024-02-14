@@ -5,7 +5,8 @@ module.exports = {
         'src/index.ts',
         'src/atoms/Button/index.ts',
         'src/atoms/Colors/index.ts',
-        'src/atoms/text/index.ts'
+        'src/atoms/text/index.ts',
+        'src/atoms/Margins/index.ts'
     ],
     output: {
         dir: 'lib',
@@ -16,5 +17,5 @@ module.exports = {
     plugins: [
         TS()
     ],
-    external:["react","@d.labs/scss"]
+    external:["react","@d.labs/scss","@d.labs/foundations"]
 };

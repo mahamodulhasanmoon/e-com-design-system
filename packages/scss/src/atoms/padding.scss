@@ -1,0 +1,16 @@
+@import '../foundations/all';
+
+$sides: t,r,b,l;
+
+@each $space, $value in  $spacing{
+    .dlabs-p-#{$space}{
+        margin: $value;
+    }
+
+    @each $side in $sides{
+        .dlabs-p#{$side}-#{$space}{
+            margin: $value;
+        }
+    }
+
+}
