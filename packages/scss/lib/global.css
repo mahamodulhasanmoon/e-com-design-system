@@ -73,17 +73,35 @@
 =            Shadows            =
 =============================================*/
 /*=============================================
-=            Global Text color            =
+=            Foundation - colors              =
 =============================================*/
-/*=====  End of Global Text color  ======*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/**
+ *
+ * Defining a SCSS Variable: [Instructions]
+ * 1. define a name
+ * 2. value of the variable will be a css var, 
+ *    so the consumer of the design system won't have to use scss
+ * 3. default value will be a scss variable that we declared previously
+ * 4. added !default flag so consumer of the design system can override the scss variable 
+ * 5. the --dlabs prefix of the variable name is a namespace (project name)
+ * [dlabs - design system for engineering]
+ */
 /*=============================================
-=            Buttons            =
+=            Global text colors               =
+=============================================*/
+/*=====  End of Text Color  ======*/
+/*=============================================
+=                   Buttons                   =
 =============================================*/
 /*=====  End of Buttons  ======*/
 /*=============================================
-=            FORMS            =
+=                    Forms                    =
 =============================================*/
-/*=====  End of FORMS  ======*/
 /*=============================================
 =            Body Font Family            =
 =============================================*/
