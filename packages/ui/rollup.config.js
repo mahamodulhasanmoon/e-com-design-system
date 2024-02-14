@@ -6,7 +6,8 @@ module.exports = {
         'src/atoms/Button/index.ts',
         'src/atoms/Colors/index.ts',
         'src/atoms/text/index.ts',
-        'src/atoms/Margins/index.ts'
+        'src/atoms/Margins/index.ts',
+        'src/atoms/Paddings/index.ts'
     ],
     output: {
         dir: 'lib',

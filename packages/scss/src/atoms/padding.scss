@@ -1,16 +1,16 @@
 @import '../foundations/all';
 
-$sides: t,r,b,l;
 
-@each $space, $value in  $spacing{
-    .dlabs-p-#{$space}{
-        margin: $value;
+$sides: (t: top, r: right, b: bottom, l: left);
+
+@each $space, $value in $spacing {
+  .dlabs-m-#{$space} {
+    margin: $value;
+  }
+
+  @each $shortcut, $side in $sides {
+    .dlabs-m#{$shortcut}-#{$space} {
+      margin-#{$side}: $value;
     }
-
-    @each $side in $sides{
-        .dlabs-p#{$side}-#{$space}{
-            margin: $value;
-        }
-    }
-
+  }
 }

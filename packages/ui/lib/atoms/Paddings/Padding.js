@@ -1,5 +1,5 @@
 import React from 'react';
-import '@d.labs/scss/lib/margin.css';
+import '@d.labs/scss/lib/padding.css';
 
 const Padding = ({ space = 'md', children, bottom, left, right, top }) => {
     let className = '';
