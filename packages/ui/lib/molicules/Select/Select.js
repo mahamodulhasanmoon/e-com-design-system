@@ -1,7 +1,7 @@
 import React, { useState, useRef, useLayoutEffect } from 'react';
 import '@d.labs/scss/lib/Select.css';
 
-const Select = ({ label = 'please choose option', options = [], onOptionSelected }) => {
+const Select = ({ label = 'please choose option', options = [], onOptionSelected, }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [overlayTop, setOverlayTop] = useState(0);
     const [selectedIndex, setSelectedIndex] = useState(null);

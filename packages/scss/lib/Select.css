@@ -120,6 +120,15 @@
   justify-content: space-between;
   padding: 1rem;
 }
+.dlabs-select-caret {
+  transition: all 250ms ease;
+}
+.dlabs-select-caret-open {
+  transform: rotate(180deg);
+}
+.dlabs-select-caret-close {
+  transform: rotate(0deg);
+}
 .dlabs-select-overlay {
   padding: 0;
   margin: 0;
@@ -143,6 +152,12 @@
 .dlabs-select-option-selected {
   background-color: var(--dlabs-form-bg-option-selected, #5ECE7B);
   color: var(--dlabs-form-color-option-selected, #fff);
+}
+.dlabs-select-option-selected:hover {
+  background-color: var(--dlabs-form-bg-option-selected, #5ECE7B);
+}
+.dlabs-select-option-highlighted {
+  background-color: var(--dlabs-form-bg-color-hover, #F1F2F3);
 }
 .dlabs-select-option:hover {
   background-color: var(--dlabs-form-bg-color-hover, #F1F2F3);

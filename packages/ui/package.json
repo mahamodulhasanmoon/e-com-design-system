@@ -4,19 +4,31 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build":"rollup -c",
-    "dev":"yarn build -w"
+    "build": "rollup -c",
+    "dev": "yarn build -w",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.16",
+    "@storybook/addon-interactions": "^7.6.16",
+    "@storybook/addon-links": "^7.6.16",
+    "@storybook/addon-onboarding": "1.0.11",
+    "@storybook/blocks": "^7.6.16",
+    "@storybook/react": "^7.6.16",
+    "@storybook/react-vite": "^7.6.16",
+    "@storybook/test": "^7.6.16",
     "@types/react": "^18.2.55",
     "@types/rollup": "^0.54.0",
     "react": "^18.2.0",
+    "react-dom": "18.2.0",
     "rollup": "^4.10.0",
     "rollup-plugin-typescript2": "^0.36.0",
+    "storybook": "^7.6.16",
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@d.labs/scss":"1.0.0",
-    "@d.labs/foundations":"1.0.0"
+    "@d.labs/foundations": "1.0.0",
+    "@d.labs/scss": "1.0.0"
   }
 }
